@@ -1,49 +1,56 @@
-⚡ QR Generator
+🎯 QR Generator
 
-A fast and simple React-based QR Code Generator that converts any text or URL into a QR code image using an online QR-generation API.
-Just enter → generate → download/share. 🎉
+A simple and fast React-based QR Code Generator that allows users to convert any text or URL into a downloadable QR code using a QR-generation API.
+Just type → generate → download/share ✔️
 
 🚀 Tech Stack / Tools Used
-Tool	Purpose
-React.js	⚛️ Front-end UI + logic to call the QR API
-Vite	⚡ Super-fast build tool (vite.config.js present)
-Node.js / npm	📦 Dependency management (package.json)
-🧩 Features
+Technology	Purpose
+React.js	⚛️ Handles UI + API logic
+Vite	⚡ Ultra-fast development & build tool
+Node.js / npm	📦 Dependency & package management
+📌 Project Description
 
-🔹 Generate QR code from any text or URL
+The QR Generator web app lets you:
 
-🔹 Super-fast rendering using React + Vite
+✏️ Enter any text or URL
 
-🔹 Download or preview QR code instantly
+🛠️ Convert it into a QR code instantly
 
-🔹 Lightweight UI with smooth experience
+📥 Download or share the generated QR code
 
-📥 Getting Started
+🌐 Works directly in the browser — no backend needed
+
+🧰 Getting Started
 ✅ Prerequisites
+
+Make sure you have:
 
 Node.js & npm installed
 
-Any modern browser (Chrome, Firefox, Edge, etc.)
+A modern web browser (Chrome, Edge, Firefox, etc.)
 
-🛠️ How to Clone & Run the Project
+📥 Clone & Setup Instructions
 1️⃣ Clone the Repository
 git clone https://github.com/Balaraman-dev/Qr_Generator.git
 
-2️⃣ Move into the Project Folder
+2️⃣ Navigate into the Project
 cd Qr_Generator
 
 3️⃣ Install Dependencies
 npm install
 
-4️⃣ Run the Development Server
+4️⃣ Start the Development Server
 npm run dev
 
-🌐 Open the App in Browser
+🌐 Open the Application
 
-After starting the dev server, open the URL shown in the terminal — usually:
+After running the dev server, open your browser and go to:
+
 👉 http://localhost:5173/
 
-Use the UI to:
-✔ Enter text / URL
-✔ Generate QR Code
-✔ Download or view the image
+(or whichever URL Vite shows in the terminal)
+
+You can now:
+✔ Enter text/URL
+✔ Generate the QR code
+✔ Download or preview it
